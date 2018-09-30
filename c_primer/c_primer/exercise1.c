@@ -1,18 +1,18 @@
-//Á·Ï°2.1
-#include <stdio.h>
-#include <stdlib.h>
+ï»¿//ç»ƒä¹ 2.1
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	printf("Qin qianyu\n");
+//	printf("Qin\nqianyu\n");
+//	printf("Qin");
+//	printf(" qianyu\n");
+//	
+//	system("pause");
+//	return  0;
+//}
 
-int main(){
-	printf("Qin qianyu\n");
-	printf("Qin\nqianyu\n");
-	printf("Qin");
-	printf(" qianyu\n");
-	
-	system("pause");
-	return  0;
-}
-
-//Á·Ï°2.2  ´òÓ¡ĞÕÃûºÍµØÖ·
+//ç»ƒä¹ 2.2  æ‰“å°å§“åå’Œåœ°å€
 //#include <stdio.h>
 //#include <stdlib.h>
 //
@@ -24,7 +24,7 @@ int main(){
 //	return  0;
 //}
 
-//Á·Ï°2.3  °ÑÄêÁä×ª»»³ÉÌìÊı£¬²¢ÏÔÊ¾ÕâÁ½¸öÖµ
+//ç»ƒä¹ 2.3  æŠŠå¹´é¾„è½¬æ¢æˆå¤©æ•°ï¼Œå¹¶æ˜¾ç¤ºè¿™ä¸¤ä¸ªå€¼
 //#include <stdio.h>
 //#include <stdlib.h>
 //
@@ -34,4 +34,111 @@ int main(){
 //	printf("I am %d years,It's %d days.\n", age, day);
 //	system("pause");
 //	return  0;
+//}
+
+//ç»ƒä¹ 2.4 
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//void jolly(){
+//	printf(" For he's a jolly good fellow!\n");
+//}
+//
+//void deny(){
+//	printf("  Which nobody can deny!\n");
+//}
+//
+//int main(){
+//	jolly();
+//	jolly();
+//	jolly();
+//	deny();
+//	system("pause");
+//	return 0;
+//}
+
+//ç»ƒä¹ 4.5
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//void br(){
+//	printf("Brazil,Russia");
+//}
+//
+//void ic(){
+//	printf("India,China");
+//}
+//
+//int main(){
+//	br();
+//	printf(",");
+//	ic();
+//	printf("\n");
+//
+//	ic();
+//	printf(",\n");
+//
+//	br();
+//	printf("\n");
+//	system("pause");
+//	return 0;
+//}
+
+//ç»ƒä¹ 2.6
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	int toes = 10;
+//	printf("toesçš„å€¼ä¸º10\n");
+//	printf("toesçš„ä¸¤å€ä¸º%d\n", 2*toes);
+//	printf("toesçš„å¹³æ–¹ä¸º%d\n", toes*toes);
+//	system("pause");
+//	return 0;
+//}
+
+//ç»ƒä¹ 2.7
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//void Smile(){
+//	printf("Smile!");
+//}
+//
+//int main(){
+//	Smile();
+//	Smile();
+//	Smile();
+//	printf("\n");
+//
+//	Smile();
+//	Smile();
+//	printf("\n");
+//
+//	Smile();
+//	printf("\n");
+//    system("pause");
+//	return 0;
+//}
+
+//ç»ƒä¹ 2.8
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//void one_three(){
+//	printf("one\n");
+//}
+//
+//void two(){
+//	printf("two\n");
+//}
+//
+//int main(){
+//	printf("starting nowï¼š\n");
+//	one_three();
+//	two();
+//	printf("three\n");
+//	printf("doneï¼\n");
+//	system("pause");
+//	return 0;
 //}
