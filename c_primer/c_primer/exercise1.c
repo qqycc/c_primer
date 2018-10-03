@@ -57,7 +57,7 @@
 //	return 0;
 //}
 
-//练习4.5
+//练习2.5
 //#include <stdio.h>
 //#include <stdlib.h>
 //
@@ -305,6 +305,116 @@
 //	system("pause");
 //	return 0;
 //}
+
+////复习题4.5
+//#define _CRT_SECURE_NO_WARNINGS
+//#define BOOK "War and Peace"
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	float cost = 12.99;
+//	float percent = 80.0;
+//
+//	printf("This copy of \"BOOK\" sells for %.2f\n", cost);
+//	printf("That is %.0f%% of list\n", percent);
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.1
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	char nom[40];
+//	char prenom[40];
+//
+//	printf("请输入您的姓名：\n");
+//	scanf("%s %s", nom,prenom);
+//	printf("%s,%s",prenom,nom);
+//
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.21
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	char name[40];
+//	int length;
+//	
+//	printf("请输入您的姓名：\n");
+//	scanf("%s", name);
+//	length = strlen(name) + 3;
+//	printf("您的名字为：\"%*s\"\n", length,name);
+//
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.3
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	float i;
+//	float j;
+//	printf("请输入一个浮点数：");
+//	scanf("%f", &i);
+//	printf("The input is %.1f or %.1e.\n",i,i);
+//
+//	printf("请再输入一个浮点数：");
+//	scanf("%f", &j);
+//	printf("The input is %+.3f or %.3E.\n", j,j);
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.4
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	char name[40];
+//	float height;
+//	float feet;
+//
+//	printf("请输入身高(单位:英寸)和姓名：");
+//	scanf("%f %s", &height, name);
+//	//1英寸=0.076199999884176尺
+//	feet = 0.076199999884176*height;
+//	printf("%s, you are %.3f feet tall\n", name, feet);
+//
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.5
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	float speed, size,time;
+
+	printf("请输入以兆位每秒(Mb / s)为单位的下载速度和以兆字节(MB)为单位的文件大小\n");
+	scanf("%f %f", &speed,&size);
+	//1字节等于8位
+	time = 8 * size / speed;
+	printf("At %.2f megabits per second, a file of %.2f megabytes\n\
+downloads in %.2f seconds.\n", speed, size, time);
+	system("pause");
+	return 0;
+}
+
+
 
 
 
