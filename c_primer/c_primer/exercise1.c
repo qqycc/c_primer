@@ -231,31 +231,80 @@
 //	printf("请输入您的年龄：");
 //	scanf("%d", &age);
 //
-//	printf("\n您的年龄所对应的秒数为：%d\n", age*31560000);
+//	printf("\n您的年龄所对应的秒数为：%f\n", age * 3.156e7);
 //	system("pause");
 //	return 0;
 //}
 
 //练习3.6
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	float quart;
+//	float mole;
+//	printf("请输入水的夸脱数:");
+//	scanf("%d", &quart);
+//	printf("\n");
+//
+//	1quart=950g,m水=3.0*10^-23
+//	水分子数=quart*950/（3.0e-23）
+//	mole = quart * 950 / (3.0e-23);
+//	printf("水分子的数量为：%e\n", mole);
+//	system("pause");
+//	return 0;
+//}
 
-int main(){
-	int quart;
+//练习3.7
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	int height;
+//	float hei;
+//	printf("请输入身高(英寸)");
+//	scanf("%d", &height);
+//
+//	//1英寸相当于2.54厘米
+//	hei = 2.54*height;
+//	printf("您的身高是%f厘米\n", hei);
+//	system("pause");
+//	return 0;
+//}
 
-	printf("请输入水的夸脱数:");
-	scanf("%d", quart);
-	printf("\n");
-
-	//1quart=950g,m水=3.0*10^-23
-	//水分子数=quart*950/（3.0*10^-23）
-	int m = 3.0*pow(10, -23);
-	printf("水分子的数量为：%d", quart * 950 / m);
-	system("pause");
-	return 0;
-}
-
+//练习3.8
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	float cup;
+//	float pint;
+//	float Oz;
+//	float spoon;
+//	float teaspoon;
+//
+//	printf("请输入杯数：");
+//	scanf("%f", &cup);
+//	printf("\n");
+//
+//	//1品脱等于2杯，1杯等于8盎司
+//	//1 盎司等于2大汤勺（即1杯等于16大汤勺）
+//	//1大汤勺等于3茶勺（即1杯等于48茶勺）
+//	pint = 2 * cup;
+//	Oz = cup / 8;
+//	spoon = cup / 16;
+//	teaspoon = cup / 48;
+//
+//	printf("%f杯等于%f品脱\n", cup, pint);
+//	printf("%f杯等于%f盎司\n", cup, Oz);
+//	printf("%f杯等于%f大汤勺\n", cup, spoon);
+//	printf("%f杯等于%f茶勺\n", cup, teaspoon);
+//	system("pause");
+//	return 0;
+//}
 
 
 
