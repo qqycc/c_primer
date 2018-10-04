@@ -343,6 +343,7 @@
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
 //#include <stdlib.h>
+//#include <string.h>
 //
 //int main(){
 //	char name[40];
@@ -397,22 +398,73 @@
 //}
 
 //练习4.5
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main(){
+//	float speed, size,time;
+//
+//	printf("请输入以兆位每秒(Mb / s)为单位的下载速度和以兆字节(MB)为单位的文件大小\n");
+//	scanf("%f %f", &speed,&size);
+//	//1字节等于8位
+//	time = 8 * size / speed;
+//	printf("At %.2f megabits per second, a file of %.2f megabytes\n\
+//downloads in %.2f seconds.\n", speed, size, time);
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.6
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <string.h>
+//
+//int main(){
+//    char nom[40];
+//	char prenom[40];
+//	int length,lengthp;
+//
+//	printf("请输入名：\n");
+//	scanf("%s", &prenom);
+//	printf("请输入姓：\n");
+//	scanf("%s", &nom);
+//
+//	length = strlen(nom) ; 
+//	lengthp = strlen(prenom);
+//	printf("%s %s\n", prenom, nom);
+//	printf("%*d %*d\n", lengthp, lengthp, length,length);
+//
+//	printf("%s %s\n", prenom, nom);
+//	printf("%-*d %-*d\n", lengthp, lengthp, length, length);
+//
+//	system("pause");
+//	return 0;
+//}
+
+//练习4.7
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <float.h>
 
 int main(){
-	float speed, size,time;
-
-	printf("请输入以兆位每秒(Mb / s)为单位的下载速度和以兆字节(MB)为单位的文件大小\n");
-	scanf("%f %f", &speed,&size);
-	//1字节等于8位
-	time = 8 * size / speed;
-	printf("At %.2f megabits per second, a file of %.2f megabytes\n\
-downloads in %.2f seconds.\n", speed, size, time);
+	double d = 1.0 / 3.0;
+	float f = 1.0 / 3.0;
+	
+	printf("d=%.6lf    f=%.6f\n",d,f);
+	printf("d=%.12lf    f=%.12f\n", d, f);
+	printf("d=%.16lf    f=%.16f\n", d, f);
+	printf("FLT_ DIG: %d\n", FLT_DIG);
+	printf("DBL_DIG: %d\n", DBL_DIG);
 	system("pause");
 	return 0;
 }
+
+
+
+
 
 
 
