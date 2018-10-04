@@ -444,26 +444,54 @@
 //}
 
 //练习4.7
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
-#include <float.h>
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <float.h>
+//
+//int main(){
+//	double d = 1.0 / 3.0;
+//	float f = 1.0 / 3.0;
+//	
+//	printf("d=%.6lf    f=%.6f\n",d,f);
+//	printf("d=%.12lf    f=%.12f\n", d, f);
+//	printf("d=%.16lf    f=%.16f\n", d, f);
+//	printf("FLT_ DIG: %d\n", FLT_DIG);
+//	printf("DBL_DIG: %d\n", DBL_DIG);
+//	system("pause");
+//	return 0;
+//}
 
-int main(){
-	double d = 1.0 / 3.0;
-	float f = 1.0 / 3.0;
-	
-	printf("d=%.6lf    f=%.6f\n",d,f);
-	printf("d=%.12lf    f=%.12f\n", d, f);
-	printf("d=%.16lf    f=%.16f\n", d, f);
-	printf("FLT_ DIG: %d\n", FLT_DIG);
-	printf("DBL_DIG: %d\n", DBL_DIG);
-	system("pause");
-	return 0;
-}
+//练习4.8
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <stdlib.h>
+//#define trans_mile 1.609      //1英里大约为1.609千米
+//#define trans_gas 3.785       //1加仑大约3.785升，
+//
+//int main(){
+//	float mile, gas;
+//	float per_gas, per_100mile;    //每加仑汽油行驶的英里数,每行驶100公里所消耗的汽油数
+//	float TRmile, TRgas;
+//
+//	printf("请输入旅行的里程（英里）：");
+//	scanf("%f",&mile);
+//	printf("请输入旅行消耗的汽油量（加仑）：");
+//	scanf("%f",&gas);
+//
+//	//消耗每加仑汽油行驶的英里数，显示小数点后面一位数字
+//	per_gas = mile / gas;
+//	printf("消耗每加仑汽油行驶的英里数:%.1f\n", per_gas);
+//	TRmile = trans_mile*mile;
+//	TRgas = trans_gas*gas;
+//	per_100mile = TRgas / TRmile * 100;
+//	printf("每行驶100公里所消耗的汽油数(升）：%.1f\n", per_100mile);
+//
+//	system("pause");
+//	return 0;
+//}
 
-
-
+//练习5.1
 
 
 
